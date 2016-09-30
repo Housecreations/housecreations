@@ -194,19 +194,25 @@
 
 <div class="form-group col-md-12">
 
-{!! Form::textarea('message', null, ['class' => 'form-control', 'size' => '20x5', 'required', 'placeholder' => 'Escriba su mensaje']) !!}
+{!! Form::textarea('body', null, ['class' => 'form-control', 'size' => '20x5', 'required', 'placeholder' => 'Escriba su mensaje']) !!}
 </div>
 
 
-
-<div class="col-md-4">
+   
+   <div class="col-md-4">
 <div class="form-group text-center">
-    
+    <div class="g-recaptcha" data-sitekey="{{ env('RE_CAP_SITE') }}"></div>
     {!! Form::submit('Enviar mensaje', ['class' => 'button'])!!}
     
 </div>
 </div>
 {!! Form::close() !!}
+   
+    
+</div>
+
+
+
 
     </div>
     <div class="col-md-4">

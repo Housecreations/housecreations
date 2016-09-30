@@ -22,6 +22,7 @@
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     
     <!-- Scripts -->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
    
 </head>
 
