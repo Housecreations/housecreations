@@ -1,0 +1,672 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: Munter - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+
+span.title-s:hover{
+    
+    color:white;
+    
+}
+
+.navbar-default .navbar-brand {
+    color: #eb5424;
+    
+    
+        
+    }
+
+body {
+    overflow: hidden;
+}
+/* preloader */
+#preloader {
+    position: fixed;
+    top:0; left:0;
+    right:0; bottom:0;
+    background: black;
+    z-index: 10000000000000000000;
+}
+#loader {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left:46%; top:35%;
+   background: url(/../images/carga.gif) no-repeat center 0;
+    margin:-50px 0 0 -50px;
+}
+
+
+.font-thin {
+	font-family: "Titillium Web", sans-serif;
+	font-weight: 200;
+    
+}
+
+.font-semibold {
+	font-family: "Titillium Web", sans-serif;
+	font-weight: 600;
+    
+
+}
+
+.font-light {
+	font-family: "Titillium Web", sans-serif;
+	font-weight: 300;
+}
+
+* {
+	position: relative;
+}
+
+.breaker {
+	clear: both;
+	font-size: 1px;
+	line-height: 1px;
+	height: 1px;
+}
+
+html, body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
+	text-align: left;
+	vertical-align: middle;
+}
+
+body {
+	background-color: #f8f8f8;
+	font-family: "Titillium Web", sans-serif;
+	font-weight: normal;
+	
+	position: relative;
+}
+
+.justify-text {
+	text-align: justify;
+}
+
+/* navigation section */
+
+.navbar-default {
+	    background: #000;
+	border: none;
+	
+	margin: 0 !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 10px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 10px;
+}
+.navbar-default .navbar-brand {
+	font-size: 40px;
+	font-weight: bold;
+	margin: 0;
+	line-height: 40px !important;
+}
+.navbar-default .navbar-nav li a {
+	color: #606060;
+	font-weight: bold;
+	padding-right: 20px;
+	padding-left: 20px;
+	line-height: 40px;
+}
+.navbar-default .navbar-nav li a:hover {
+	color: #eb5424;
+    background-color: #ffffff !important;
+    transition: 0.4s;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	/*color: #606060;*/
+	background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #eb5424;
+	background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+	border: none;
+	padding-top: 12px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background: #eb5424;
+	border-color: transparent;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: transparent;
+}
+
+	
+
+
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+
+.slide {
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding-bottom: 65px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+#home {
+	background-image: url('../images/bg.jpeg');
+	color: #ffffff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    
+}
+
+#home h1 {
+	padding-top: 130px;
+}
+
+
+
+
+	#home-row-1,
+	#home-row-2{
+		padding-top: 25px;
+	}
+	
+	#home-row-1 h1 {
+		font-size: 54px;
+	}
+	
+	#home-row-1 h4 {
+		font-size: 32px;
+	}
+	
+	
+	
+	#home-row-2 .col-12 {
+		height: 232px;
+		padding-top: 120px;
+	}
+	
+	#home-row-2 .col-12 .home-hover {
+		height: 180px;
+		overflow: hidden;
+		padding-top: 0px;
+		transition: all ease-in .2s;
+	}
+	
+	#home-row-2 .col-12 .home-hover:hover {
+		height: 166px;
+		padding-top: 26px;
+        
+	}
+
+@media (max-width: 767px) {
+	#home-row-1,
+	#home-row-2 {
+		padding-top: 16px;
+	}
+	
+	#home-row-1 h1 {
+		font-size: 35px;
+	}
+	
+	#home-row-1 h4 {
+		font-size: 21px;
+	}
+	
+	#home-row-2 {
+		font-size: 16px;
+	}
+}
+
+
+
+
+#intro {
+	background-color: #ffffff;
+    color: #000000;
+    padding-top: 100px;
+    padding-bottom: 105px;
+    border-bottom: solid 1px #f1f1f1;
+}
+
+.plan {
+    background: #eb5424;
+    color: #ffffff;
+    padding: 0 0 20px 0;
+}
+.plan .plan_title {
+    background-color: #f6f6f6;
+    color: #202020;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.plan .plan_sub_title {
+    border-bottom: 1px solid #ffffff;
+        padding: 10px;
+}
+.plan ul {
+    padding: 0;
+}
+.plan ul li {
+    display: block;
+    font-family: "Proxima";
+    font-size: 16px;
+    padding: 40px 0 10px 0;
+}
+.plan .btn {
+    background: #ffffff;
+    border: none;
+    border-radius: 0;
+    color: #202020;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 40px;
+    transition: all 0.4s ease-in-out;
+    margin-top: 20px;
+}
+
+
+	.title-row {
+		font-size: 45px;
+		padding-bottom: 30px;
+	}
+	
+	.line-row .hr {
+		background-color: #e4e6e5;
+		height: 1px;
+		margin: 0 auto;
+		width: 87%;
+	}
+
+.hrhome {
+		background-color: #e4e6e5;
+		height: 1px;
+		margin: 0 auto;
+		width: 45%;
+	}
+	
+	.subtitle-row {
+		font-size: 35px;
+		padding-bottom: 40px;
+		padding-top: 40px;
+	}
+	
+	.content-row {
+		padding-top: 45px;
+	}
+	
+	.content-row i,
+	#about-row-5 i {
+		display: block;
+		margin: 0 auto;
+		max-height: 100%;
+		max-width: 100%;
+	}
+	
+	.content-row h2 {
+		font-size: 28px;
+		
+	}
+	
+	.content-row h4 {
+		font-family: "Titillium Web", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		font-size: 20px;
+		font-weight: 300;
+	}
+	
+	i {
+		font-size: 45px;
+		color: #ff5400;
+	}
+	
+
+@media (max-width: 767px) {
+	.title-row {
+		font-size: 34px;
+		padding-bottom: 33px;
+	}
+	
+	.subtitle-row {
+		font-size: 26px;
+		padding-bottom: 26px;
+		padding-top: 26px;
+	}
+	
+	.content-row {
+		padding-top: 29px;
+	}
+	
+	.content-row h2 {
+		font-size: 24px;
+		padding-bottom: 26px;
+	}
+	
+	.content-row h4 {
+		font-size: 20px;
+	}
+}
+
+#portafolio {
+           background-color: #f9f9f9;
+  padding-top: 70px;
+}
+	
+	#portafolio .col-12 {
+		    display: block;
+    padding: 10px;
+    width: 30%;
+
+	}
+
+
+.center-portfolio {
+      padding-top: 50px;
+    padding-left: 100px;
+}
+
+#portafolio .col-13 {
+		display: grid;
+		
+	}
+
+
+	#portafolio a,
+	#portafolio img {
+		display: inline-block;
+		height: 100%;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+@media (max-width: 991px) {
+    
+    .center-portfolio {
+    padding-left: 50px;
+}
+    
+	#portafolio {
+		text-align: center;
+		width: 100%;
+	}
+	
+	#portafolio .row {
+		left: 0 !important;
+		margin: 0;
+		width: 100% !important;
+	}
+	
+	#portafolio .col-12 {
+		height: auto;
+		width: 50%
+	}
+
+	#portafolio a,
+	#portafolio img {
+		height: auto;
+		max-height: 100%;
+		max-width: 100%;
+		width: auto;
+	}
+}
+	
+@media (max-width: 767px) {
+	#portafolio .col-12 {
+		width: 100%;
+	}
+     .center-portfolio {
+    padding-left: 15px;
+}
+    
+}
+
+#slide-4 {
+	background-color: #34495e;
+	color: #e4e6e5;
+	padding-top: 90px;
+}
+
+#slide-4 i {
+		font-size: 80px;
+		color: white;
+	}
+
+
+#slide-5 {
+	background-color: firebrick;
+	color: #e4e6e5;
+	padding-top: 90px;
+}
+
+#contacto {
+	    background-color: #ffffff;
+    color: #000000;
+    padding-bottom: 90px;
+    padding-top: 90px;
+    border-top: solid 1px #e8e8e8;
+}
+
+@media (max-width: 767px) {
+	#contacto {
+		background-image: none;
+	}
+}
+	
+	
+
+	#contacto a {
+		color: inherit;
+		outline: none;
+		text-decoration: none;
+	}
+
+
+	
+	#contact-row-4 {
+		padding-top: 40px;
+	}
+	
+	#contact-row-4 .col-12 {
+		height: 175px;
+		overflow: hidden;
+		padding-top: 20px;
+		transition: all ease-in .5s;
+	}
+	
+	#contact-row-4 img {
+		display: block;
+		margin: 0 auto;
+		max-height: 100%;
+		max-width: 100%;
+	}
+	
+	#contact-row-4 .col-12:hover {
+		height: 175px;
+		
+	}
+	
+	#contact-row-4 .col-12 .hover-text {
+		display: none;
+		font-size: 20px;
+	}
+
+input.button {
+    background: #eb5424;
+    border: none;
+    border-radius: 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 40px;
+    transition: all 0.4s ease-in-out;
+    margin-top: 20px;
+}
+
+input.button:hover, button.btn.btn-warning:hover {
+    background-color: black;
+  
+   
+    color: #eb5424;
+  
+   
+   
+}
+
+.panel-default>.panel-heading {
+    color: #eb410d;
+    background-color: #000000;
+    /* border-color: #fff; */
+}
+
+.form-control:focus {
+    border-color: #eb5424;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px #eb5424;
+    box-shadow: inset 0 1px 1px #eb5424;
+    transition: all 0.4s ease-in-out;
+}
+
+address{
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.42857143;
+    font-size: 20px;
+    text-align: left;
+    color: #a2a2a2;
+}
+address ul{
+    padding: 0;
+}
+
+address h4{
+    margin-top: 0;
+    line-height: 1;
+}
+
+#lightbox-out {
+	background-color: #eb5424;
+	height: 100%;
+	position: fixed;
+	width: 100%;
+	z-index: 99999;
+}
+
+.with-hover-text span {
+	display: none;
+}
+
+.zoom {
+	/*background-image: url('../images/zoom.png');*/
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+footer
+    {
+     background: #000000;
+    color: #ffffff;
+    text-align: center;
+    bottom: 0;
+   
+    width: 100%;
+ 
+       
+        
+    }
+
+footer.other-footer {
+    position: fixed;
+}
+footer p
+    {
+        display: block;
+        padding-top: 40px;
+        font-size: 16px;
+    }
+footer span
+    {
+        color: #aaaaaa;
+        font-weight: bold;
+    }
+
+
+.social-icon {
+    padding: 30px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+.social-icon li {
+	list-style: none;
+	display: inline-block;
+}
+.social-icon li a {
+	background: black;
+	border-radius: 100%;
+	color: #a2a2a2;
+	font-size: 32px;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.4s ease-in-out;
+	
+    display: block;
+}
+.social-icon li a:hover {
+	background: white;
+    color: #eb5424;
+}
+
+
+@media screen and (max-width:980px) {
+.navbar-default .navbar-nav li a {
+	padding-right: 14px;
+	padding-left: 14px;
+	font-size: 13px;
+}
+#intro h2 {
+	font-size: 32px;
+}
+#work .title {
+	padding: 80px 20px 20px 20px;
+}
+.portfolio-thumb .portfolio-overlay {
+	padding-top: 24px;
+}
+}
+@media (max-width:767px) {
+.navbar-brand {
+	padding-top: 6px;
+}
+}
+@media (max-width:400px) {
+#home h1 {
+	font-size: 32px;
+}
+#home h2 {
+	font-size: 22px;
+}
+#intro h2 {
+	font-size: 20px;
+}
+.portfolio-thumb .portfolio-overlay {
+	padding-top: 60px;
+}
+}
