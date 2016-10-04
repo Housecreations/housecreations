@@ -7,6 +7,124 @@
  * URL: http://blacktie.co
  */
 
+
+/*Alertas*/
+
+
+.alert {
+    position: fixed;
+    top: 70px;
+    width: 50%;
+    left: 320px;
+    padding: 15px;
+    margin-bottom: 5px;
+    border: 1px solid transparent;
+    border-radius: 0px 0px 4px 4px;
+    font-size: 16px;
+    z-index: 9;
+    transition: all 0.5s;
+}
+.alert-success {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #000000;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 3px;
+}
+.alert>p, .alert>ul {
+    margin-bottom: 0;
+    list-style: none;
+}
+
+/*Fin alertas*/
+
+
+/*Administrador*/
+.slide.background {
+    background-color: #efefef;
+}
+
+.card {
+    background-color: #f9f9f9;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px 1px;
+    padding: 20px;
+}
+
+.image img {
+    width: 100%;
+    height: 400px;
+    border: solid 1px #eaeaea;
+}
+.items.col-md-5 {
+    border: solid 1px #e4e4e4;
+    /* margin: 10px; */
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+span.category {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+    /* margin-bottom: 5px; */
+    /* margin-top: 5px; */
+    top: 10px;
+    /* position: absolute; */
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px 1px;
+}
+.actions{
+       
+}
+.actions a {
+    padding: 10px;
+    background-color: #eb5424;
+    top: -8px;
+    border-radius: 2px;
+   
+}
+.actions a:hover {
+   
+    background-color: #191919;
+    
+    color: #eb5424;
+    transition: all 0.8s;
+}
+i.fa {
+     color: white;
+    font-size: 15px;
+}
+
+img.image-edit-portafolio {
+    width: 50%;
+    height: 350px;
+}
+
+/*Fin administrador*/
+
+p {
+   
+    font-size: 16px;
+}
+
+img.img-responsive {
+    height: 630px !important;
+}
+
+.modal-header {
+   
+    background-color: #eb5424;
+  
+}
+
+.modal-header:hover {
+   
+    background-color: black;
+  transition: all 0.8s;
+}
+
+
 span.title-s:hover{
     
     color:white;
@@ -79,7 +197,7 @@ html, body {
 }
 
 body {
-	background-color: #f8f8f8;
+	 background-color: #191919;
 	font-family: "Titillium Web", sans-serif;
 	font-weight: normal;
 	
@@ -375,10 +493,16 @@ body {
 	}
 
 
-	#portafolio a,
-	#portafolio img {
+	#portafolio a {
 		display: inline-block;
 		height: 100%;
+		margin: 0 auto;
+		width: 100%;
+            color: white;
+	}
+#portafolio img {
+		display: inline-block;
+		height: 250px;
 		margin: 0 auto;
 		width: 100%;
 	}
@@ -503,7 +627,10 @@ input.button {
     font-weight: bold;
     padding: 20px 40px;
     transition: all 0.4s ease-in-out;
-    margin-top: 20px;
+    margin: 20px 0px 0px 0px;
+    
+    display: inline-block;
+    
 }
 
 input.button:hover, button.btn.btn-warning:hover {
@@ -516,7 +643,38 @@ input.button:hover, button.btn.btn-warning:hover {
    
 }
 
+.button{
+      background: #eb5424;
+    border: none;
+    border-radius: 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 40px;
+    transition: all 0.4s ease-in-out;
+   
+    display: block;
+   
+}
+.button:hover{
+       background-color: black;
+  
+   
+    color: #eb5424;
+  
+}
+.button.button-sm{
+    width: 20%;
+}
+.button.button-md{
+    width: 40%;
+}
+.button.button-lg{
+    width: 60%;
+}
+
 .panel-default>.panel-heading {
+    font-size: 20px;
     color: #eb410d;
     background-color: #000000;
     /* border-color: #fff; */
@@ -636,6 +794,9 @@ footer span
 
 
 @media screen and (max-width:980px) {
+    
+    
+    
 .navbar-default .navbar-nav li a {
 	padding-right: 14px;
 	padding-left: 14px;
@@ -651,10 +812,31 @@ footer span
 	padding-top: 24px;
 }
 }
+
+@media (min-width:768px) {
+ .modal-dialog {
+    width: 80%;
+    margin: 30px auto;
+}   
+}
+
 @media (max-width:767px) {
+    
+.button.button-sm {
+    width: 30%;
+}
+    .button.button-md {
+    width: 50%;
+}   
+    
 .navbar-brand {
 	padding-top: 6px;
 }
+    
+    img.img-responsive {
+    height: 450px !important;
+}
+    
 }
 @media (max-width:400px) {
 #home h1 {

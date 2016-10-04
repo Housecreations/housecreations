@@ -1,10 +1,10 @@
 @extends('layouts.app-other')
-
+@section('title', 'Iniciar sesión')
 @section('content')
-<section class="slide story">
+<section class="slide story background">
 <div class="container">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
             <div class="panel panel-default">
                 <div class="panel-heading"><h4>Login</h4></div>
                 <div class="panel-body">
@@ -45,7 +45,7 @@
                                 
                                 <div class="checkbox">
                                     <label>
-                                        <input type="checkbox" name="remember"> Remember Me
+                                        <input type="checkbox" name="remember"> Recordarme
                                     </label>
                                 </div>
                             </div>

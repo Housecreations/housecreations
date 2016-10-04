@@ -16,7 +16,7 @@
         <li><a href="#contacto" class="smoothScroll">CONTACTO</a></li>
         @if(Auth::user())
                                  
-					            		<li><a href="/">PANEL DE CONTROL</a></li>
+					            		<li><a href="/admin">PANEL DE CONTROL</a></li>
 					            		<li>
                                     <a href="{{ url('/logout') }}"
                                         onclick="event.preventDefault();

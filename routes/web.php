@@ -11,13 +11,23 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
+
+ Route::get('/', 'HomeController@index');
 
 Auth::routes();
 
-Route::get('/admin', 'HomeController@index');
+
 
 Route::resource('messages', 'MessagesController');
 
+Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
+    
+    Route::get('/', 'PortafoliosController@index');
+    
+    
+    Route::resource('portafolios', 'PortafoliosController');
+    
+});

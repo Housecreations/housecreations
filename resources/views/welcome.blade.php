@@ -36,6 +36,7 @@
 <!-- === Slide 2 === -->
 	<section id="intro" class="slide story" data-slide="2">
 		<div class="container" >
+		
 			<div class="row title-row">
 				<div class="col-12 font-thin">Desarrollamos soluciones <span class="font-semibold">inteligentes</span> para tu negocio.
                 </div>
@@ -54,14 +55,14 @@
 					<h2 class="font-thin">Páginas <span class="font-semibold">estáticas</span></h2>
         </div>
         <div class="plan_sub_title">
-          <p>Lorem Ipso Lorem Ipso Lorem Ipso Lorem Ipso Lorem Ipso Lorem Ipso Lorem Ipso Lorem Ipso Lorem Ipso</p>
+          <p>Ideal para personas y empresas que quieren tener su espacio en la red</p>
            </div>
         <ul>
-          <li>10 EMAIL ACCOUNTS</li>
-          <li>1 GB SPACE</li>
-          <li>20 MORE THEMES</li>
+          <li>3 CUERPOS</li>
+          <li>BLABLA</li>
+          <li>BLABLA</li>
         </ul>
-        <button class="btn btn-warning">Get started</button>
+        <button class="btn btn-warning">Cotizar</button>
       </div>
     </div>
     <div class="col-md-4 col-sm-6">
@@ -71,66 +72,51 @@
 					<h2 class="font-thin">Páginas <span class="font-semibold">dinámicas</span></h2>
         </div>
         <div class="plan_sub_title">
-          <p>Lorem Ipso Lorem Ipso Lorem Ipso Lorem Ipso Lorem Ipso Lorem Ipso Lorem Ipso Lorem Ipso Lorem Ipso</p> </div>
+          <p>¿Siempre tienes nuevo contenido para mostrar? Nuestras páginas autogestionables son para ti</p> </div>
         <ul>
-          <li>10 EMAIL ACCOUNTS</li>
-          <li>4 GB SPACE</li>
-          <li>20 MORE THEMES</li>
+          <li>BASES DE DATOS</li>
+          <li>GALERIA DE IMAGENES</li>
+          <li>BLABLA</li>
         </ul>
-        <button class="btn btn-warning">Get started</button>
+        <button class="btn btn-warning">Cotizar</button>
       </div>
     </div>
     <div class="col-md-4 col-sm-6">
       <div class="plan wow bounceInRight" data-wow-delay="0.3s">
         <div class="plan_title">
-         <p><i class="icon icon-money"></i></p>
-					<h2 class="font-thin">E-<span class="font-semibold">commerce</span></h2>
+         <p><i class="icon icon-shopping-cart"></i></p>
+					<h2 class="font-thin">Tiendas<span class="font-semibold"> online</span></h2>
         </div>
         <div class="plan_sub_title">
-          <p>Lorem Ipso Lorem Ipso Lorem Ipso Lorem Ipso Lorem Ipso Lorem Ipso Lorem Ipso Lorem Ipso Lorem Ipso</p> </div>
+          <p>De el salto al e-commerce y comience a llegar a más clientes</p> </div>
         <ul>
-          <li>10 EMAIL ACCOUNTS</li>
-          <li>10 GB SPACE</li>
-          <li>20 MORE THEMES</li>
+          <li>CARRITO DE COMPRAS</li>
+          <li>PAGOS CON TDC</li>
+          <li>100% AUTOGESTIONABLE</li>
         </ul>
-        <button class="btn btn-warning">Get started</button>
+        <button class="btn btn-warning">Cotizar</button>
       </div>
     </div>
             </div>
 			
 		</div><!-- /container -->
+       
 	</section><!-- /slide2 -->
 	
 	<!-- === SLide 3 - Portfolio -->
     
    
     
-    <!-- Modal -->
-                   
-      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-						    <div class="modal-dialog">
-						      <div class="modal-content">
-						        <div class="modal-header">
-						         
-						          <a href=""><h4 class="modal-title">EsElenaSuarez.com</h4></a>
-						        </div>
-						        <div class="modal-body">
-						          <p><img class="img-responsive" src="images/portfolio/p05-large.jpg" alt=""></p>
-						          <p>Blablabla</p>
-						          
-						        </div>
-						        <div class="modal-footer">
-						          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-						        </div>
-						      </div><!-- /.modal-content -->
-						    </div><!-- /.modal-dialog -->
-						  </div><!-- /.modal -->                               
+                                  
                     
                                     
 	<section class="slide story" id="portafolio" data-slide="3">
         
         
         <div class="container">
+        
+        <div class="col-md-12 col-sm-12 col-xs-12 card">
+        
 		<div class="row title-row">
             	<div class="col-13 font-thin">Nuestro trabajo</div>
             	
@@ -144,12 +130,44 @@
           
             
             <div class="center-portfolio">
-			<div class="col-12 col-sm-3 col-lg-2"><a data-toggle="modal" href="#myModal" data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p01-large.jpg"><img class="thumb" src="images/portfolio/p01-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-3 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p02-large.jpg"><img class="thumb" src="images/portfolio/p02-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-3 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p09-large.jpg"><img class="thumb" src="images/portfolio/p09-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-3 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p010-large.jpg"><img class="thumb" src="images/portfolio/p10-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-3 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p05-large.jpg"><img class="thumb" src="images/portfolio/p05-small.jpg" alt=""></a></div>
-			<div class="col-12 col-sm-3 col-lg-2"><a data-fancybox-group="portfolio" class="fancybox" href="images/portfolio/p06-large.jpg"><img class="thumb" src="images/portfolio/p06-small.jpg" alt=""></a></div>
+			
+			
+			@foreach($portafolios as $portafolio)
+			<!-- Modal -->
+                   
+      <div class="modal fade" id="myModal_{{$portafolio->id}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						         
+						          <a href="http://{{$portafolio->url}}"><h4 class="modal-title">{{$portafolio->name}}</h4></a>
+						        </div>
+						        <div class="modal-body">
+						          <p><img class="img-responsive" src="images/portafolio/{{$portafolio->image_url}}" alt=""></p>
+						          <p>{{$portafolio->description}}</p>
+						          
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="button button-sm" data-dismiss="modal">Cerrar</button>
+						        </div>
+						      </div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal --> 
+			
+			
+			<div class="items col-md-5">
+			<h4>{{$portafolio->name}}</h4>
+			<a data-toggle="modal" href="#myModal_{{$portafolio->id}}" data-fancybox-group="portfolio" class="fancybox">
+			
+			<img class="thumb" src="images/portafolio/{{$portafolio->image_url}}" alt=""></a>
+			<span class="category">{{$portafolio->category}}</span>
+			</div>
+			@endforeach
+			
+			
+
+			
+			</div>
 			</div>
 		</div><!-- /row -->
 	</section><!-- /slide3 -->

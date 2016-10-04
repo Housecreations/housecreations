@@ -14,7 +14,7 @@
                         @if(Auth::user())
                                  <li>
 					            	
-					            		<li><a href="/">PANEL DE CONTROL</a></li>
+					            		<li><a href="/admin">PANEL DE CONTROL</a></li>
 					            		<li>
                                     <a href="{{ url('/logout') }}"
                                         onclick="event.preventDefault();
