@@ -34,11 +34,84 @@
 
 
 <!-- === Slide 2 === -->
-	<section id="intro" class="slide story" data-slide="2">
+
+<section id="intro" class="slide story" data-slide="2">
 		<div class="container" >
 		
 			<div class="row title-row">
-				<div class="col-12 font-thin">Desarrollamos soluciones <span class="font-semibold">inteligentes</span> para tu negocio.
+				<div class="col-12 font-thin wow fadeInRight animated">¿Quiénes somos?
+                </div>
+			
+        </div><!-- /row -->
+			<div class="row line-row">
+				<div class="hr">&nbsp;</div>
+			</div>
+			
+			
+			<div class="row subtitle-row">
+			<div class="subtitle-text wow fadeInLeft animated">Una empresa que desarrolla soluciones inteligentes que posicionan y dan alcance a tus productos y servicios en la web, de una manera rápida y contundente, basándose siempre en altos estándares de calidad y honestidad</div>
+            </div>
+			
+		</div><!-- /container -->
+       
+	</section><!-- /slide2 -->
+	
+	<section id="services" class="slide story" data-slide="3">
+		<div class="container" >
+		
+			<div class="row title-row">
+				<div class="col-12 font-thin">¿Qué hacemos?
+                </div>
+			
+        </div><!-- /row -->
+			<div class="row line-row">
+				<div class="hr">&nbsp;</div>
+			</div>
+			
+			
+			<div class="row subtitle-row">
+			
+           <div class="services-container col-md-4">
+               
+               <h4 class="services-text">Paginas web</h4>
+               
+               <img src="images/paginas web.png" alt="" class="services-img">
+               
+                  <div class="services-description">
+                     <p>Elaboramos páginas webs de tipo personal, empresarial, blogs, catálogos y tiendas online adaptables a sus requerimientos</p>
+                  </div>
+           </div>
+           <div class="services-container col-md-4">
+               <h4 class="services-text">SEO</h4>
+               
+               <img src="images/seo.jpg" alt="" class="services-img">
+               
+                  <div class="services-description">
+                     <p>Implementamos Search Engine Optimization en todas nuestras páginas para garantizar su posicionamiento en internet </p>
+                  </div>
+           </div>
+           <div class="services-container col-md-4">
+               <h4 class="services-text">Diseño responsive</h4>
+               
+               <img src="images/responsive.png" alt="" class="services-img">
+               
+                  <div class="services-description">
+                     <p>Diseños responsive para adaptar su página web a cualquier tipo de dispositivos como smartphones, desktops y tablets</p>
+                  </div>
+           </div>
+           
+            </div>
+			
+		</div><!-- /container -->
+       
+	</section><!-- /slide2 -->
+
+
+	<section id="plans" class="slide story" data-slide="4">
+		<div class="container" >
+		
+			<div class="row title-row">
+				<div class="col-12 font-thin">Planes <span class="font-semibold">diseñados</span> para ti.
                 </div>
 			
         </div><!-- /row -->
@@ -51,56 +124,96 @@
 			<div class="col-md-4 col-sm-6">
       <div class="plan wow bounceInLeft" data-wow-delay="0.3s">
         <div class="plan_title">
-        <p><i class="icon icon-laptop"></i></p>
-					<h2 class="font-thin">Páginas <span class="font-semibold">estáticas</span></h2>
+        
+					<h2 class="font-thin">Web <span class="font-semibold">Social Media</span></h2>
         </div>
         <div class="plan_sub_title">
-          <p>Ideal para personas y empresas que quieren tener su espacio en la red</p>
+          <p>Ideal para posicionarte en la web haciendo énfasis en tus redes sociales</p>
            </div>
         <ul>
-          <li>3 CUERPOS</li>
-          <li>BLABLA</li>
-          <li>BLABLA</li>
+          <li>Dominio .com.ve gratis por 1 año</li>
+          <li>Slider autogestionable de 3 imágenes</li>
+          <li>Redes sociales</li>
+          <li>¿Tienes presencia en las redes sociales?</li>
+          <li>Creamos y optimizamos tus redes para mayor alcance de tu marca o empresa</li>
+            <br><br><br><br><br><br><br><br>
         </ul>
-        <button class="btn btn-warning">Cotizar</button>
+        <button class="btn btn-warning">Ver ejemplo</button>
       </div>
     </div>
     <div class="col-md-4 col-sm-6">
       <div class="plan wow fadeIn" data-wow-delay="0.6s">
         <div class="plan_title">
-          <p><i class="icon icon-tablet"></i></p>
-					<h2 class="font-thin">Páginas <span class="font-semibold">dinámicas</span></h2>
+        
+					<h2 class="font-thin">Web <span class="font-semibold">estándar</span></h2>
         </div>
         <div class="plan_sub_title">
-          <p>¿Siempre tienes nuevo contenido para mostrar? Nuestras páginas autogestionables son para ti</p> </div>
+          <p>Perfecta para empezar a mostrar tu contenido</p><br> </div>
         <ul>
-          <li>BASES DE DATOS</li>
-          <li>GALERIA DE IMAGENES</li>
-          <li>BLABLA</li>
+          <li>Dominio .com.ve gratis por 1 año</li>
+          <li>Slider autogestionable de 3 imágenes</li>
+          <li>Redes sociales</li>
+          <li>Galería de 9 imágenes</li>
+          <li>6 secciones de contenido estático</li>
+          
+          <li>3 cuentas de correo corporativo <br></li>
+          <li>Formulario de contacto</li>
+          <br><br><br><br>
         </ul>
-        <button class="btn btn-warning">Cotizar</button>
+        <button class="btn btn-warning">Ver ejemplo</button>
       </div>
     </div>
     <div class="col-md-4 col-sm-6">
-      <div class="plan wow bounceInRight" data-wow-delay="0.3s">
+      <div class="plan wow bounceInRight padding-bottom" data-wow-delay="0.3s">
         <div class="plan_title">
-         <p><i class="icon icon-shopping-cart"></i></p>
-					<h2 class="font-thin">Tiendas<span class="font-semibold"> online</span></h2>
+        
+					<h2 class="font-thin">Web <span class="font-semibold"> catálogo</span></h2>
         </div>
         <div class="plan_sub_title">
-          <p>De el salto al e-commerce y comience a llegar a más clientes</p> </div>
+          <p>¿No quieres limitantes? Este plan es para ti. Empiece a mostrar sus productos y servicios </p></div>
         <ul>
-          <li>CARRITO DE COMPRAS</li>
-          <li>PAGOS CON TDC</li>
-          <li>100% AUTOGESTIONABLE</li>
+          <li>Dominio .com.ve gratis por 1 año</li>
+          <li>Slider autogestionable</li>
+          <li>Redes sociales</li>
+          <li>Cuentas de correo personalizadas</li>
+          <li>Galería de imágenes</li>
+          <li>Secciones de contenido estático</li>
+          <li>Catálogo con imagenes y descripción de sus productos y servicios</li>
+          <li>Formulario de contacto</li>
+        
         </ul>
-        <button class="btn btn-warning">Cotizar</button>
+        <button class="btn btn-warning">Ver ejemplo</button>
       </div>
     </div>
+          
+           <div class="col-md-offset-4 col-md-4 col-sm-6">
+      <div class="plan wow bounceInUp" data-wow-delay="0.3s">
+        <div class="plan_title">
+         
+					<h2 class="font-thin">Tienda<span class="font-semibold"> online</span></h2>
+        </div>
+        <div class="plan_sub_title">
+          <p>Sin horarios ni personal deja que tu página web venda por ti 24/7</p> </div>
+        <ul>
+          <li>Todos los beneficios del plan web catálogo</li>
+          <li>Carrito de compras</li>
+          <li>Procesamiento de pagos online</li>
+          <li>Noticaciones de compra vía email</li>
+         
+          
+        
+          
+        </ul>
+        <button class="btn btn-warning">Ver ejemplo</button>
+      </div>
+     
+      
+      
             </div>
+           
 			
 		</div><!-- /container -->
-       
+        </div>
 	</section><!-- /slide2 -->
 	
 	<!-- === SLide 3 - Portfolio -->
@@ -118,7 +231,7 @@
         <div class="col-md-12 col-sm-12 col-xs-12 card">
         
 		<div class="row title-row">
-            	<div class="col-13 font-thin">Nuestro trabajo</div>
+            	<div class="col-13 font-thin">Portafolio</div>
             	
            </div>
            <div class="row line-row">

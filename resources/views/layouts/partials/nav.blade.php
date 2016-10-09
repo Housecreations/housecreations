@@ -8,9 +8,9 @@
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#home" class="smoothScroll">INICIO</a></li>
-        <li><a href="#intro" class="smoothScroll">INTRO</a></li>
-        
-       
+        <li><a href="#intro" class="smoothScroll">QUIÉNES SOMOS</a></li>
+        <li><a href="#services" class="smoothScroll">QUÉ HACEMOS</a></li>
+       <li><a href="#plans" class="smoothScroll">PLANES</a></li>
         <li><a href="#portafolio" class="smoothScroll">PORTAFOLIO</a></li>
  
         <li><a href="#contacto" class="smoothScroll">CONTACTO</a></li>

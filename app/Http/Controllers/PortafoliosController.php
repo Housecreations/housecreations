@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 
 use App\Portafolio;
+use App\Message;
 
 use App\Http\Requests\PortafolioRequest;
 
@@ -22,8 +23,9 @@ class PortafoliosController extends Controller
     public function index()
     {
         $portafolios = Portafolio::orderBy('id', 'DESC')->simplePaginate(6);
-        
-        return view('admin.welcome', ['portafolios' => $portafolios]);
+        $messagesCount = Message::unreadMessages();
+       
+        return view('admin.welcome', ['portafolios' => $portafolios, 'messagesCount' => $messagesCount]);
     }
 
     /**

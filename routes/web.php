@@ -21,12 +21,21 @@ Auth::routes();
 
 
 
-Route::resource('messages', 'MessagesController');
+Route::resource('messages', 'MessagesController', [
+    
+    'only' => ['store']
+    
+]);
 
 Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
     
     Route::get('/', 'PortafoliosController@index');
     
+    Route::resource('messages', 'MessagesController', [
+        
+        'only' => ['index','show', 'destroy']
+        
+    ]);
     
     Route::resource('portafolios', 'PortafoliosController');
     

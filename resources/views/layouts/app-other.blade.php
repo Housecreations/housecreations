@@ -18,9 +18,8 @@
 	<link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}">
     
     <!-- Fonts -->
-    
-    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    
+   
+     <link href="https://fonts.googleapis.com/css?family=News+Cycle:400,700" rel="stylesheet">
     <!-- Scripts -->
    
 </head>

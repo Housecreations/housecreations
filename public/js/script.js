@@ -74,4 +74,11 @@ $(function(){
   });
   wow.init();
     
+    function initParallax() {
+   /* $('#plans').parallax("100%", 0.3);*/
+         $('#home').parallax("100%", 0.3);
+ 
+  }
+  initParallax();
+    
     });

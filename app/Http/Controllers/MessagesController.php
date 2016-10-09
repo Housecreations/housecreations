@@ -13,7 +13,34 @@ use Mail;
 use GuzzleHttp\Client;
 
 class MessagesController extends Controller
-{
+{   
+    
+    public function index(){
+        
+        $messages = Message::orderBy('id', 'DESC')->get();
+        $messagesCount = Message::unreadMessages();
+        
+        return view('messages.index', ['messages' =>  $messages, 'messagesCount' => $messagesCount]);
+    }
+    
+    public function show($id){
+        
+        $message = Message::find($id);
+        $message->read = 'yes';
+        $message->save();
+        $messagesCount = Message::unreadMessages();
+        
+        return view('messages.show', ['message' =>  $message, 'messagesCount' => $messagesCount]);
+    }
+    
+    public function destroy($id){
+       
+        $message = Message::destroy($id);
+        Flash::success('El mensaje ha sido eliminado');
+        return back();
+        
+    }
+    
      public function store(Request $request)
     {   
          
@@ -67,7 +94,7 @@ class MessagesController extends Controller
         
          Flash::success("Mensaje enviado");
         
-         return back();
+         return redirect('/#contacto');
                 
                 
             }else{

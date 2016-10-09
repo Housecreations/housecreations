@@ -20,7 +20,7 @@
     <!-- Fonts -->
     
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-   <link href="https://fonts.googleapis.com/css?family=News+Cycle:400,700" rel="stylesheet">
+    
     <!-- Scripts -->
     <script src='https://www.google.com/recaptcha/api.js'></script>
    
@@ -34,8 +34,6 @@
    
         <section>
   
-        @include('flash::message')
-        @include('layouts.partials.errors')
       
         @yield('content')
       
@@ -65,7 +63,7 @@
     <script src="{{asset('js/wow.min.js')}}"></script> 
     <script src="{{asset('js/jquery.sticky.js')}}"></script> 
     <script src="{{asset('js/smoothscroll.js')}}"></script>
-    <script src="{{asset('js/jquery.parallax.js')}}"></script>
+    
     @yield('js')
     
     

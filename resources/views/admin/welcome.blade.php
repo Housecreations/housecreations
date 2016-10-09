@@ -31,7 +31,7 @@
                     
                         <a href="{{url('admin/portafolios/'.$portafolio->id.'/edit')}}"><i class="fa icon-wrench"></i></a>
                         
-                         <a href="{{ url('admin/portafolios/'.$portafolio->id) }}" onclick="event.preventDefault();
+                       <a href="{{ url('admin/portafolios/'.$portafolio->id) }}" onclick="event.preventDefault();
                                 document.getElementById('portafolios_form_{{$portafolio->id}}').submit();"><i class="fa icon-remove"></i></a>
                                    
                                    {!! Form::open(['url'=> '/admin/portafolios/'.$portafolio->id, 'method' => 'DELETE', 'style' => 'display:none;', 'id' => 'portafolios_form_'.$portafolio->id]) !!}

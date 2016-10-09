@@ -44,10 +44,14 @@
 }
 
 .card {
-    background-color: #f9f9f9;
+       background-color: #ffffff;
     margin: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px 1px;
     padding: 20px;
+}
+.modal-title {
+  
+    font-size: 25px;
 }
 
 .image img {
@@ -102,10 +106,24 @@ img.image-edit-portafolio {
 }
 
 /*Fin administrador*/
-
+.body-message {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #1f2124;
+}
 p {
    
     font-size: 16px;
+}
+tr.unread {
+    background-color: #efefef;
+}
+
+input.button.button-lg {
+    margin: 0px;
 }
 
 img.img-responsive {
@@ -124,6 +142,14 @@ img.img-responsive {
   transition: all 0.8s;
 }
 
+.badge {
+  
+    vertical-align: text-bottom;
+    
+}
+span.badge.badge-color {
+    background-color: #eb5424;
+}
 
 span.title-s:hover{
     
@@ -160,7 +186,7 @@ body {
 
 
 .font-thin {
-	font-family: "Titillium Web", sans-serif;
+	font-family: "News Cycle", sans-serif;
 	font-weight: 200;
     
 }
@@ -175,6 +201,16 @@ body {
 .font-light {
 	font-family: "Titillium Web", sans-serif;
 	font-weight: 300;
+}
+
+.subtitle-text{
+    
+   
+    font-family: "News Cycle", sans-serif;
+    font-weight: 300;
+    font-size: 31px;
+    text-align: center;
+
 }
 
 * {
@@ -198,7 +234,7 @@ html, body {
 
 body {
 	 background-color: #191919;
-	font-family: "Titillium Web", sans-serif;
+	font-family: "News Cycle", sans-serif;
 	font-weight: normal;
 	
 	position: relative;
@@ -272,14 +308,14 @@ body {
 }
 
 #home {
-	background-image: url('../images/bg.jpeg');
-	color: #ffffff;
-    -webkit-background-size: cover;
+   /* background-image: url(../images/bg.jpeg);*/
+    color: #ffffff;
+    /* -webkit-background-size: cover; */
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-
-    
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+    background: #dcdcdc url(../images/bg.jpeg) 50% 0 repeat-y fixed;
 }
 
 #home h1 {
@@ -345,23 +381,66 @@ body {
 
 
 #intro {
-	background-color: #ffffff;
-    color: #000000;
+	background-color: #3a444c;
+    color: #efefef;
     padding-top: 100px;
     padding-bottom: 105px;
-    border-bottom: solid 1px #f1f1f1;
+    
+    background-image: url(../images/malla.png);
+    background-repeat: inherit;
+}
+
+section#services {
+    color: white;
+    background-color: #2f2f2f;
+        padding-top: 100px;
+    padding-bottom: 50px;
+}
+section#plans {
+    color: white;
+    background-color: #2f2f2f;
+    padding-top: 100px;
+    padding-bottom: 50px;
+     background-size: cover; 
+  background-image: url(../images/bg.jpeg); 
+    background-attachment: fixed; 
+   /* background: #dcdcdc url(../images/bg.jpeg) 50% 0 repeat-y fixed;*/
+}
+
+
+h4.services-text {
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+.services-description p {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+        color: #d6d6d6;
+}
+.margin-top{
+    margin-top: 30px;
 }
 
 .plan {
     background: #eb5424;
     color: #ffffff;
     padding: 0 0 20px 0;
+        box-shadow: rgba(39, 39, 39, 0.45) 0px 5px 5px 1px;
+        border-radius: 10px 0px 10px 0px;
+        margin-top: 20px;
 }
+.services-container.col-md-4 {
+    margin-top: 25px;
+}
+
+
 .plan .plan_title {
     background-color: #f6f6f6;
     color: #202020;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    border-radius: 10px 0px 0px 0px;
 }
 .plan .plan_sub_title {
     border-bottom: 1px solid #ffffff;
@@ -370,22 +449,28 @@ body {
 .plan ul {
     padding: 0;
 }
+
+.padding-bottom{
+    padding-bottom: 24px;
+}
 .plan ul li {
-    display: block;
-    font-family: "Proxima";
+       display: block;
+    /* font-family: "Proxima"; */
     font-size: 16px;
-    padding: 40px 0 10px 0;
+    font-weight: bold;
+    padding: 20px 20px 10px 20px;
 }
 .plan .btn {
     background: #ffffff;
     border: none;
     border-radius: 0;
     color: #202020;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     padding: 20px 40px;
     transition: all 0.4s ease-in-out;
     margin-top: 20px;
+        border-radius: 5px;
 }
 
 
@@ -395,11 +480,21 @@ body {
 	}
 	
 	.line-row .hr {
-		background-color: #e4e6e5;
-		height: 1px;
-		margin: 0 auto;
-		width: 87%;
-	}
+    background-color: #d2d2d2;
+    height: 4px;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 55%;
+}
+
+img.services-img {
+       width: 90%;
+    height: 300px;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+
 
 .hrhome {
 		background-color: #e4e6e5;
@@ -634,11 +729,7 @@ input.button {
 }
 
 input.button:hover, button.btn.btn-warning:hover {
-    background-color: black;
-  
-   
-    color: #eb5424;
-  
+   box-shadow: rgba(39, 39, 39, 0.45) 0px 5px 5px 1px;
    
    
 }

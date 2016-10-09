@@ -12,8 +12,12 @@
        
         
                         @if(Auth::user())
-                                 <li>
-					            	
+                                 <li>    
+                                         @if($messagesCount > 0)
+					            	    <li><a href="{{url('/admin/messages')}}">MENSAJES <span class="badge badge-color">{{$messagesCount}}</span></a></li>
+					            	    @else
+					            	    <li><a href="{{url('/admin/messages')}}">MENSAJES <span class="badge">{{$messagesCount}}</span></a></li>
+					            	    @endif
 					            		<li><a href="/admin">PANEL DE CONTROL</a></li>
 					            		<li>
                                     <a href="{{ url('/logout') }}"
